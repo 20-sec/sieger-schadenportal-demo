@@ -588,11 +588,7 @@ function ProfileView() {
 function BrandMark({ compact = false }: { compact?: boolean }) {
   return (
     <div className={`brand-mark ${compact ? "compact" : ""}`}>
-      <img className="brand-logo" src="/sieger-logo.png" alt="SIEGER Versicherungsschmiede" />
-      <div>
-        <strong>SIEGER</strong>
-        {!compact && <span>Schadenportal</span>}
-      </div>
+      <img className="brand-logo" src="/sieger-logo-cropped.png" alt="SIEGER Versicherungsschmiede" />
     </div>
   );
 }
